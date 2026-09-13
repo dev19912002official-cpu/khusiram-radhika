@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#170a0f">
+<title>Telugu Trader Radhika</title>
+<meta property="og:title" content="Telugu Trader Radhika">
+<meta property="og:description" content="రాధికతో ట్రేడింగ్ నేర్చుకోండి — ఉచిత టెలిగ్రామ్ కమ్యూనిటీ">
+<meta property="og:image" content="radhika.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --bg:#170a0f;
+  --panel:#231017;
+  --panel2:#2b141c;
+  --line:#4a2430;
+  --gold:#eab554;
+  --rose:#ff8aa1;
+  --cream:#faf1ee;
+  --muted:#c9a8ac;
+}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{
+  margin:0;
+  background:radial-gradient(circle at top,#2a1119 0%,var(--bg) 55%);
+  color:var(--cream);
+  font-family:Poppins,sans-serif;
+  overflow-x:hidden;
+}
+
+a{color:inherit;text-decoration:none}
+
+.te{font-family:'Noto Sans Telugu',sans-serif}
+
+.shell{
+  width:min(600px,100%);
+  margin:auto;
+  min-height:100vh;
+  position:relative;
+}
+
+/* ---------- nav ---------- */
+
+.nav{
+  height:76px;
+  padding:0 22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid var(--line);
+}
+
+.brand{display:flex;align-items:center;gap:11px}
+
+.brand-pic{
+  width:42px;height:42px;
+  border-radius:12px;
+  object-fit:cover;
+  border:1px solid var(--line);
+}
+
+.brand strong{display:block;font-size:15px}
+.brand small{display:block;color:var(--gold);font-size:11px;margin-top:1px}
+
+.tg-top{
+  display:flex;align-items:center;gap:9px;
+  padding:9px 13px;
+  border:1px solid var(--line);
+  background:var(--panel);
+  border-radius:999px;
+  color:var(--gold);
+  font-weight:700;font-size:13px;
+}
+
+.tg-icon{
+  width:24px;height:24px;
+  display:grid;place-items:center;
+  border-radius:50%;
+  background:#229ed9;color:#fff;
+}
+.tg-icon svg{width:15px;height:15px;fill:currentColor}
+
+/* ---------- hero ---------- */
+
+.hero{padding:44px 22px 36px;text-align:center}
+
+.avatar{
+  width:118px;height:118px;
+  border-radius:50%;
+  margin:0 auto 16px;
+  border:3px solid var(--gold);
+  overflow:hidden;
+  box-shadow:0 0 34px rgba(234,181,84,.25);
+}
+.avatar img{width:100%;height:100%;object-fit:cover}
+
+.badge{
+  display:inline-flex;align-items:center;gap:8px;
+  color:var(--gold);
+  font-size:12px;font-weight:700;
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:8px 15px;
+  margin-bottom:20px;
+}
+
+.dot{
+  width:8px;height:8px;border-radius:50%;
+  background:var(--gold);
+  box-shadow:0 0 14px var(--gold);
+}
+
+h1{
+  font-family:'Noto Sans Telugu',sans-serif;
+  font-size:clamp(30px,8vw,42px);
+  line-height:1.25;
+  margin:0 0 6px;
+  font-weight:800;
+}
+
+h1 em{
+  font-style:normal;
+  background:linear-gradient(90deg,var(--gold),var(--rose));
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+.eng-name{
+  font-size:14px;
+  color:var(--muted);
+  margin-bottom:20px;
+  letter-spacing:.02em;
+}
+
+.lead{
+  font-family:'Noto Sans Telugu',sans-serif;
+  color:var(--cream);
+  font-size:16px;
+  line-height:1.85;
+  max-width:44ch;
+  margin:0 auto 8px;
+}
+
+.lead-en{
+  color:var(--muted);
+  font-size:12.5px;
+  margin-bottom:28px;
+}
+
+.hero-actions{display:flex;flex-direction:column;gap:11px}
+
+.primary{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  min-height:58px;
+  padding:0 24px;
+  background:linear-gradient(100deg,var(--gold),var(--rose));
+  color:#22090d;
+  border-radius:14px;
+  font-family:'Noto Sans Telugu',sans-serif;
+  font-weight:700;
+  font-size:16px;
+  box-shadow:0 14px 34px rgba(234,138,161,.22);
+  transition:.15s;
+}
+.primary:hover{transform:translateY(-2px)}
+
+.free{color:var(--muted);font-size:12.5px}
+
+/* ---------- method ---------- */
+
+.method{padding:14px 22px 50px}
+
+.section-title{text-align:center;margin-bottom:24px}
+
+.section-title span{
+  color:var(--gold);
+  font-size:12.5px;font-weight:700;
+  letter-spacing:.06em;
+}
+
+.section-title h2{
+  font-family:'Noto Sans Telugu',sans-serif;
+  font-size:clamp(24px,5vw,30px);
+  margin:8px 0 6px;
+}
+
+.section-title p{
+  font-family:'Noto Sans Telugu',sans-serif;
+  color:var(--muted);margin:0;font-size:14.5px;
+}
+
+.cards{display:flex;flex-direction:column;gap:13px}
+
+.card{
+  padding:20px;
+  background:linear-gradient(135deg,var(--panel2),var(--panel));
+  border:1px solid var(--line);
+  border-left:4px solid var(--gold);
+  border-radius:16px;
+}
+
+.card:nth-child(2){border-left-color:var(--rose)}
+.card:nth-child(3){border-left-color:#7fd6c4}
+
+.num{font-size:11.5px;font-weight:700;color:var(--gold);letter-spacing:.08em}
+.card:nth-child(2) .num{color:var(--rose)}
+.card:nth-child(3) .num{color:#7fd6c4}
+
+.card h3{
+  font-family:'Noto Sans Telugu',sans-serif;
+  font-size:19px;margin:14px 0 6px;
+}
+
+.card p{
+  font-family:'Noto Sans Telugu',sans-serif;
+  margin:0;color:var(--muted);line-height:1.7;font-size:13.5px;
+}
+
+/* ---------- join ---------- */
+
+.join{
+  margin:0 22px 54px;
+  padding:34px 22px;
+  text-align:center;
+  background:radial-gradient(circle at top,rgba(234,181,84,.14),transparent 60%),var(--panel);
+  border:1px solid var(--line);
+  border-radius:20px;
+}
+
+.join h2{
+  font-family:'Noto Sans Telugu',sans-serif;
+  font-size:clamp(24px,4vw,30px);margin:0 0 10px;
+}
+
+.join p{
+  font-family:'Noto Sans Telugu',sans-serif;
+  color:var(--muted);margin:0 0 22px;font-size:13.5px;
+}
+
+.join .primary{width:100%}
+
+/* ---------- footer ---------- */
+
+footer{
+  border-top:1px solid var(--line);
+  padding:24px 22px 92px;
+  text-align:center;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.7;
+}
+
+footer a{color:var(--gold)}
+
+.disclaimer{
+  font-family:'Noto Sans Telugu',sans-serif;
+  max-width:820px;
+  margin:12px auto 0;
+  color:#7a5c60;
+  font-size:11.5px;
+}
+
+.float{
+  display:none;
+  position:fixed;right:16px;bottom:16px;
+  width:58px;height:58px;
+  border-radius:50%;
+  background:#229ed9;color:white;
+  place-items:center;
+  box-shadow:0 10px 30px rgba(34,158,217,.4);
+  z-index:10;
+}
+.float svg{width:28px;fill:currentColor}
+
+@media(max-width:520px){
+  .nav{height:66px;padding:0 16px}
+  .brand-pic{width:38px;height:38px}
+  .tg-top span:last-child{display:none}
+  .tg-top{padding:7px}
+  .hero{padding:38px 16px 34px}
+  .method{padding:12px 16px 44px}
+  .join{margin:0 16px 50px;padding:30px 18px}
+  footer{padding-left:16px;padding-right:16px}
+  .float{display:grid}
+}
+
+</style>
+</head>
+<body>
+<main class="shell">
+
+<nav class="nav">
+  <a class="brand" href="#top" aria-label="Telugu Trader Radhika home">
+    <img class="brand-pic" src="radhika.jpg" alt="Radhika">
+    <span>
+      <strong>Radhika</strong>
+      <small class="te">తెలుగు ట్రేడర్</small>
+    </span>
+  </a>
+
+  <a class="tg-top join-link" href="#">
+    <span class="tg-icon">
+      <svg viewBox="0 0 24 24"><path d="M21.8 3.2 18.5 20c-.25 1.18-.91 1.47-1.85.92l-5-3.68-2.41 2.32c-.27.27-.49.49-1 .49l.36-5.09 9.26-8.37c.4-.36-.09-.56-.63-.2L5.78 13.6.85 12.06c-1.07-.34-1.09-1.07.22-1.58L20.35 3c.9-.33 1.68.2 1.45.2Z"/></svg>
+    </span>
+    <span>Join Telegram</span>
+  </a>
+</nav>
+
+<section class="hero" id="top">
+
+  <div class="avatar">
+    <img src="radhika.jpg" alt="Telugu Trader Radhika">
+  </div>
+
+  <div class="badge">
+    <span class="dot"></span>
+    <span class="te">ఉచిత టెలిగ్రామ్ కమ్యూనిటీ</span>
+  </div>
+
+  <h1 class="te">రాధికతో <em>ట్రేడింగ్</em> నేర్చుకోండి</h1>
+  <div class="eng-name">TELUGU TRADER RADHIKA · Learn Trading Simply</div>
+
+  <p class="lead te">
+    సింపుల్ చార్ట్ ఉదాహరణలతో ఎంట్రీ, టార్గెట్ మరియు స్టాప్-లాస్ నేర్చుకోండి.
+    మొదటిసారి ట్రేడ్ చేసేవారి కోసం ప్రత్యేకంగా రూపొందించిన సులభమైన పద్ధతి.
+  </p>
+  <p class="lead-en">Simple chart-based lessons on entry, target and stop-loss — made for beginners.</p>
+
+  <div class="hero-actions">
+    <a class="primary join-link" href="#">
+      టెలిగ్రామ్‌లో ఉచితంగా చేరండి <span>↗</span>
+    </a>
+    <span class="free te">ఎలాంటి రుసుము లేదు · బిగినర్స్‌కు అనుకూలం</span>
+  </div>
+
+</section>
+
+<section class="method">
+
+  <div class="section-title">
+    <span>THE SIMPLE FRAMEWORK</span>
+    <h2 class="te">రాధికతో నేర్చుకోండి</h2>
+    <p class="te">సులభమైన, స్పష్టమైన పద్ధతిలో ట్రేడింగ్ చార్ట్‌లను అర్థం చేసుకోండి.</p>
+  </div>
+
+  <div class="cards">
+
+    <article class="card">
+      <span class="num">POINT 01</span>
+      <h3 class="te">ఎంట్రీ కనుక్కోండి</h3>
+      <p class="te">
+        సాధారణ చార్ట్ ఉదాహరణల ద్వారా మార్కెట్‌లోకి ఎప్పుడు ఎంటర్ కావాలో నేర్చుకోండి.
+      </p>
+    </article>
+
+    <article class="card">
+      <span class="num">POINT 02</span>
+      <h3 class="te">టార్గెట్ సెట్ చేయండి</h3>
+      <p class="te">
+        సరైన టార్గెట్ లెవెల్స్‌ను గుర్తించడం మరియు ప్రాఫిట్ బుకింగ్ ప్లాన్ చేయడం నేర్చుకోండి.
+      </p>
+    </article>
+
+    <article class="card">
+      <span class="num">POINT 03</span>
+      <h3 class="te">రిస్క్ కంట్రోల్ చేయండి</h3>
+      <p class="te">
+        స్టాప్-లాస్ సరిగ్గా వాడటం మరియు మీ మూలధనాన్ని కాపాడుకునే క్రమశిక్షణ నేర్చుకోండి.
+      </p>
+    </article>
+
+  </div>
+
+</section>
+
+<section class="join">
+  <h2 class="te">ఈరోజే ట్రేడింగ్ నేర్చుకోవడం మొదలుపెట్టండి</h2>
+  <p class="te">ప్రతిరోజూ చార్ట్ పాఠాలు · సులభమైన వివరణలు · 100% ఉచితం</p>
+  <a class="primary join-link" href="#">
+    టెలిగ్రామ్ ఛానెల్ తెరవండి <span>↗</span>
+  </a>
+</section>
+
+<footer>
+  <b>Advertised by SRS Marketing Agency</b>
+  <br>
+  Telegram: <a href="#" class="join-link" target="_blank" rel="noopener">@srsagency</a>
+
+  <div class="disclaimer">
+    ఈ సమాచారం కేవలం విద్యా ప్రయోజనాల కోసమే. ఇది పెట్టుబడి, ట్రేడింగ్ లేదా ఆర్థిక సలహా కాదు.
+    <br>For educational purposes only. This is not investment, trading or financial advice.
+  </div>
+</footer>
+
+</main>
+
+<a class="float join-link" href="#" aria-label="Join Telegram">
+  <svg viewBox="0 0 24 24"><path d="M21.8 3.2 18.5 20c-.25 1.18-.91 1.47-1.85.92l-5-3.68-2.41 2.32c-.27.27-.49.49-1 .49l.36-5.09 9.26-8.37c.4-.36-.09-.56-.63-.2L5.78 13.6.85 12.06c-1.07-.34-1.09-1.07.22-1.58L20.35 3c.9-.33 1.68.2 1.45.2Z"/></svg>
+</a>
+
+<script>
+  (() => {
+    'use strict';
+
+
+    const CONFIG = Object.freeze({
+      pixelId: '1061709793016198',
+      telegramUrl: 'https://t.me/+-7gDVcQ5XahhOTM1',
+      pageViewDelayMs: 3000,
+      passiveReaderDelayMs: 8000,
+      minimumClickTimeMs: 1000,
+      trackedRedirectDelayMs: 700,
+      fastRedirectDelayMs: 50,
+      pageViewSessionKey: 'three_point_qualified_page_view'
+    });
+
+    const pageOpenedAt = Date.now();
+
+    let pageViewTracked = false;
+    let subscribeTracked = false;
+    let navigationStarted = false;
+    let humanInteractionDetected = false;
+
+   
+    function loadMetaPixel() {
+      const pixelGuardKey =
+        `__threePointPixelInitialized_${CONFIG.pixelId}`;
+
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+
+        if (!f._fbq) f._fbq = n;
+
+        n.push = n;
+        n.loaded = true;
+        n.version = '2.0';
+        n.queue = [];
+
+        t = b.createElement(e);
+        t.async = true;
+        t.src = v;
+
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      }(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      );
+
+      if (window[pixelGuardKey]) return;
+
+      let pixelAlreadyRegistered = false;
+
+      try {
+        if (typeof fbq.getState === 'function') {
+          const pixelState = fbq.getState();
+
+          pixelAlreadyRegistered = pixelState.pixels.some((pixel) =>
+            String(pixel.id) === String(CONFIG.pixelId)
+          );
+        }
+      } catch (error) {
+        pixelAlreadyRegistered = false;
+      }
+
+      if (!pixelAlreadyRegistered) {
+        fbq('init', CONFIG.pixelId);
+      }
+
+      window[pixelGuardKey] = true;
+    }
+
+    
+    function sessionPageViewExists() {
+      try {
+        return sessionStorage.getItem(CONFIG.pageViewSessionKey) === 'true';
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function saveSessionPageView() {
+      try {
+        sessionStorage.setItem(CONFIG.pageViewSessionKey, 'true');
+      } catch (error) {
+        
+      }
+    }
+
+    function automationDetected() {
+      return navigator.webdriver === true;
+    }
+
+    function tryQualifiedPageView() {
+      const timeOnPageMs = Date.now() - pageOpenedAt;
+      const interactionQualified =
+        humanInteractionDetected &&
+        timeOnPageMs >= CONFIG.pageViewDelayMs;
+      const passiveReaderQualified =
+        timeOnPageMs >= CONFIG.passiveReaderDelayMs;
+
+      const canTrack =
+        !pageViewTracked &&
+        !sessionPageViewExists() &&
+        !automationDetected() &&
+        (interactionQualified || passiveReaderQualified) &&
+        document.visibilityState === 'visible' &&
+        document.hasFocus() &&
+        typeof window.fbq === 'function';
+
+      if (!canTrack) return;
+
+      fbq('track', 'PageView', {
+        qualified_view: true,
+        human_interaction: humanInteractionDetected,
+        qualification: interactionQualified
+          ? 'interaction_3_seconds'
+          : 'focused_8_seconds',
+        time_on_page: Math.round(timeOnPageMs / 1000)
+      });
+
+      pageViewTracked = true;
+      saveSessionPageView();
+    }
+
+    function recordHumanInteraction(event) {
+      if (!event.isTrusted || humanInteractionDetected) return;
+
+      humanInteractionDetected = true;
+      tryQualifiedPageView();
+    }
+
+    function initializeVisitorQualification() {
+      ['pointerdown', 'touchstart', 'keydown', 'scroll', 'mousemove']
+        .forEach((eventName) => {
+          window.addEventListener(eventName, recordHumanInteraction, {
+            passive: true,
+            once: true
+          });
+        });
+
+      window.setTimeout(tryQualifiedPageView, CONFIG.pageViewDelayMs);
+      window.setTimeout(tryQualifiedPageView, CONFIG.passiveReaderDelayMs);
+    }
+
+  
+    function handleTelegramClick(event) {
+      event.preventDefault();
+
+      if (navigationStarted) return;
+      navigationStarted = true;
+
+      const timeOnPageMs = Date.now() - pageOpenedAt;
+      const isQualifiedClick =
+        event.isTrusted &&
+        !automationDetected() &&
+        timeOnPageMs >= CONFIG.minimumClickTimeMs;
+
+      if (
+        isQualifiedClick &&
+        !subscribeTracked &&
+        typeof window.fbq === 'function'
+      ) {
+        fbq('track', 'Subscribe', {
+          value: 0,
+          currency: 'INR',
+          destination: 'Telegram',
+          time_on_page: Math.round(timeOnPageMs / 1000)
+        });
+
+        subscribeTracked = true;
+      }
+
+      const redirectDelay = isQualifiedClick
+        ? CONFIG.trackedRedirectDelayMs
+        : CONFIG.fastRedirectDelayMs;
+
+      window.setTimeout(() => {
+        window.location.assign(CONFIG.telegramUrl);
+      }, redirectDelay);
+    }
+
+    function initializeTelegramButtons() {
+      const buttons = document.querySelectorAll('.join-link, .jnBtn');
+
+      buttons.forEach((button) => {
+        button.href = CONFIG.telegramUrl;
+        button.addEventListener('click', handleTelegramClick);
+      });
+    }
+
+  
+    loadMetaPixel();
+    initializeVisitorQualification();
+
+    if (document.readyState === 'loading') {
+      document.addEventListener(
+        'DOMContentLoaded',
+        initializeTelegramButtons,
+        { once: true }
+      );
+    } else {
+      initializeTelegramButtons();
+    }
+  })();
+</script>
+</body>
+</html>
